@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <link rel="stylesheet" href="Css1.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="search">
+        
+        <form>
+            <label for="text" class="search">მიუთითე მანქანის ფასი</label>
+            <input type="text" name="" id="prprice" class="search btn-btn">
+            <input type="button" onclick="pricesLessthan()" value="ძებნა" class="search-btn">
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="amg" class="col-3" onclick="displayDescription(this.id)">
+                <img src="img/mercedes.jpg" class="w-100">
+                <button type="ძებნა" class="btn btn-danger w-100">ყიდვა</button>
+            </div>
+            <div id="taycan" class="col-3" onclick="displayDescription(this.id)">
+                <img src="img/taycan.jpg" class="w-100">
+                <button type="ძებნა" class="btn btn-danger w-100">ყიდვა</button>
+            </div>
+            <div id="porsche" class="col-3" onclick="displayDescription(this.id)">
+                <img src="img/porsche.jpg" class="w-100">
+                <button type="ძებნა" class="btn btn-danger w-100">ყიდვა</button>
+            </div>
+            <div id="dodge" class="col-3" onclick="displayDescription(this.id)">
+                <img src="img/dodge.jpg" class="w-100">
+                <button type="ძებნა" class="btn btn-danger w-100">ყიდვა</button>
+            </div>
+        </div>
+    </div>
+  
+</body>
+
+<script src="112.js"></script>
+</html>
